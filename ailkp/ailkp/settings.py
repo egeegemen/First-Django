@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'helloworld.apps.HelloworldConfig', # 1.Adim: Uygulamayi ekledik.
+    'bootstrap.apps.BootstrapConfig', # 2.Adim: Uygulamayi ekledik.
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

@@ -19,5 +19,5 @@ from django.urls import path, include # 2.Adim: include fonksiyonunu ekledik.
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('samet/muhammet/', include('helloworld.urls')),
+    path('', include('helloworld.urls')),
 ]
